@@ -113,4 +113,14 @@ defmodule BlockScoutWeb.Schema.Scalars do
     value(:reward)
     value(:selfdestruct)
   end
+
+  enum :sort_order do
+    value(:asc)
+    value(:desc)
+  end
+
+  input_object :block_tx_pair do
+    field :block_hash, :full_hash
+    field :tx_hash, :full_hash
+  end
 end

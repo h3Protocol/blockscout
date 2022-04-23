@@ -5,6 +5,8 @@
 - [#5312](https://github.com/blockscout/blockscout/pull/5312) - Add OpenZeppelin proxy storage slot
 - [#5302](https://github.com/blockscout/blockscout/pull/5302) - Add specific tx receipt fields for the GoQuorum client
 - [#5268](https://github.com/blockscout/blockscout/pull/5268) - Contract names display improvement
+- [#5345](https://github.com/blockscout/blockscout/pull/5345) - Graphql: add user-selected ordering to transactions for address query
+- [#5371](https://github.com/blockscout/blockscout/pull/5371) - Graphql: add the ability to specify a block range for the transaction for addresses query
 
 ### Fixes
 - [#5488](https://github.com/blockscout/blockscout/pull/5488) - Split long contract output to multiple lines
