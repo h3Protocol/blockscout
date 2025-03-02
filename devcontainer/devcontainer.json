@@ -1,0 +1,12 @@
+{
+    "name": "Blockscout Elixir + Docker",
+    "image": "mcr.microsoft.com/devcontainers/base:jammy", // or a suitable base
+    // Enable Docker in Docker
+    "features": {
+      "docker-in-docker": "latest"
+    },
+    "forwardPorts": [4000],
+    "postCreateCommand": "docker-compose up -d",
+    // ...
+  }
+  
