@@ -1104,7 +1104,6 @@ defmodule Explorer.Chain do
       address in Address,
       as: :address,
       where: address.hash in ^hashes,
-      # https://stackoverflow.com/a/29598910/470451
       order_by: fragment("array_position(?, ?)", type(^hashes, {:array, Hash.Address}), address.hash)
     )
   end
