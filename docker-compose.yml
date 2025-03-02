@@ -12,7 +12,7 @@ services:
       # Replace with your Ethereum node's JSON RPC endpoint
       ETHEREUM_JSON_RPC_HTTP_URL: "https://virtual.sonic.rpc.tenderly.co/68643e3c-dc3e-42f1-bde3-ed8dbccabbe0"
       # Replace with a secure random string
-      SECRET_KEY_BASE: "68643e3c-dc3e-42f1-bde3-ed8dbccabbe0""
+      SECRET_KEY_BASE: "68643e3c-dc3e-42f1-bde3-ed8dbccabbe0"
       # Additional environment variables can be added here as needed
     depends_on:
       - postgres
